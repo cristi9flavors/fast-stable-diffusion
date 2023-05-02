@@ -57,7 +57,7 @@ if TYPE_CHECKING:  # Only import for type checking (is False at runtime).
     from gradio.components import Component
 
 BUILT_IN_THEMES: Dict[str, Theme] = {
-#    t.name: t
+    t.name: t
     for t in [
         themes.Base(),
         themes.Default(),
